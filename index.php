@@ -1,16 +1,10 @@
 <html>
 <head>
-<style>
-#jyp
-{
-    background-color: blue;
-    color: white;
-}
-</style>
+<link rel='stylesheet' href="./css/modular.css"/> 
 </head>
 <body>
-<div id='jyp'>
-	whera   fwef we aaweee am i,so do i___<?=3+11?>
+<div style='width: 100px;border:solid 14px #ccc'>
+ewfwefwef
 </div>
 </body>
 </html>
