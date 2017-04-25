@@ -1,0 +1,58 @@
+/*
+ * 4. grid setting
+ */
+ @import 'variables.less';
+ @import 'mixins.less';
+ 
+.header{
+	height:50px;
+	min-height:10%;
+	background-color:@color-ivory;
+	border-bottom:solid 1px @color-ivory-dark;
+}
+
+.contents{
+	min-height:80%;
+	background-color:@color-ivory;
+}
+
+.footer{
+	height:50px;
+	min-height:10%;
+	background-color:@color-ivory;
+	border-top:solid 1px @color-ivory-dark;
+}
+
+.container{
+	width:@container-lg;
+	padding-left:@gutter/2;
+	padding-right:@gutter/2;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.row
+{
+	margin-left: -(@gutter/2);
+	margin-right: -(@gutter/2);
+	
+	.col-sm-3
+	{
+		.mixin-col;
+		width:100% * (3/12);
+	}
+	
+	.col-sm-6
+	{
+		.mixin-col;
+		width:100% * (6/12);
+	}
+	
+	.col-sm-9
+	{
+		.mixin-col;
+		width:100% * (9/12);
+	}
+}
+
+
