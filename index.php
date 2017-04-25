@@ -1,9 +1,10 @@
 <html>
 <head>
 <style>
-#jyp{
-	background-color: blue;
-	color: white;
+#jyp
+{
+    background-color: blue;
+    color: white;
 }
 </style>
 </head>
